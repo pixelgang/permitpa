@@ -22527,6 +22527,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.admob.prototype.acts.PreloadInterstitial,
 	cr.plugins_.admob.prototype.acts.PreloadBanner,
 	cr.plugins_.Audio.prototype.acts.StopAll,
+	cr.plugins_.Audio.prototype.acts.SetVolume,
 	cr.plugins_.Sprite.prototype.acts.SetAnimFrame,
 	cr.plugins_.Sprite.prototype.acts.StopAnim,
 	cr.plugins_.admob.prototype.acts.ShowBanner,
